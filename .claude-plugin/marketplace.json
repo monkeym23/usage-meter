@@ -1,0 +1,12 @@
+{
+  "name": "usage-meter",
+  "owner": { "name": "MaxmKey" },
+  "metadata": { "description": "Track Claude usage limits (5-hour and weekly) in the Claude Code status line." },
+  "plugins": [{
+    "name": "usage-meter",
+    "source": "./",
+    "description": "Track Claude usage limits in the status line: 5-hour session and weekly limit usage (%) for Claude Pro, Max and Team subscriptions, with 80%/95% alerts.",
+    "category": "productivity",
+    "keywords": ["usage", "usage-limit", "rate-limit", "quota", "weekly-limit", "status-line", "usage-monitor"]
+  }]
+}

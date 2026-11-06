@@ -1,0 +1,27 @@
+{
+  "name": "usage-meter",
+  "version": "0.3.0",
+  "description": "Track Claude usage limits in the status line: 5-hour session and weekly limit usage (%) for Claude Pro, Max and Team subscriptions, with 80%/95% alerts. Works in Claude Code and Cowork. 在状态行显示 Claude 订阅的 5 小时额度和每周额度用量，接近上限时提醒。",
+  "author": { "name": "MaxmKey" },
+  "homepage": "https://github.com/monkeym23/usage-meter",
+  "repository": "https://github.com/monkeym23/usage-meter",
+  "keywords": [
+    "usage", "usage-limit", "rate-limit", "quota", "limits",
+    "5-hour-limit", "weekly-limit", "session-limit",
+    "status-line", "statusline", "usage-monitor", "usage-tracker",
+    "subscription", "pro", "max", "team", "cowork",
+    "用量", "额度", "限额"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language / 语言",
+      "description": "auto follows Claude Code's language setting, then the system language; zh shows Chinese, en shows English. auto 先看 Claude Code 的 language 设置，再看系统语言。",
+      "default": "auto",
+      "options": ["auto", "zh", "en"]
+    }
+  }
+}
